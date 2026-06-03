@@ -38,6 +38,14 @@ chore/update-pr-template
 └── backend/            # Node.js TypeScript backend foundation
 ```
 
+## Documentation
+
+- `docs/branch-strategy.md`: Git branch and pull request workflow.
+- `docs/architecture.md`: Backend architecture and request flow.
+- `docs/head-node-design.md`: Head Node planning and responsibility boundaries.
+- `docs/database-schema.md`: Initial PostgreSQL schema planning.
+- `docs/redis-plan.md`: Redis usage planning for queueing, communication, state, and cache.
+
 ## Backend
 
 See `backend/README.md` for backend setup, Docker commands, and service details.
