@@ -79,7 +79,7 @@ docker compose down -v
 
 ```text
 backend/
-├── prisma/              # Prisma schema and future migrations
+├── prisma/              # Prisma schema and migrations
 ├── src/
 │   ├── routes/          # Express route definitions
 │   ├── controllers/     # Request handlers
@@ -93,7 +93,6 @@ backend/
 │   └── index.ts         # Server startup and graceful shutdown
 ├── tests/               # Jest test suite
 ├── .env.example         # Required environment variables
-├── prisma.config.ts     # Prisma CLI configuration
 ├── tsconfig.json        # TypeScript configuration
 ├── package.json         # Scripts and dependencies
 ├── Dockerfile           # Production backend image
