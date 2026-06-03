@@ -45,6 +45,7 @@ For local development without Docker, update `.env` so `POSTGRES_URL` and `REDIS
 | --- | --- | --- |
 | `PORT` | HTTP server port | `4000` |
 | `POSTGRES_URL` | PostgreSQL connection string | `postgresql://postgres:postgres@localhost:5432/autonomous_ai_platform` |
+| `DATABASE_URL` | Prisma PostgreSQL connection string | `postgresql://postgres:postgres@localhost:5432/autonomous_ai_platform` |
 | `REDIS_URL` | Redis connection string | `redis://localhost:6379` |
 | `OPENAI_API_KEY` | Reserved for future OpenAI integrations | Empty for Day 1 |
 | `GEMINI_API_KEY` | Reserved for future Gemini integrations | Empty for Day 1 |
@@ -78,6 +79,7 @@ docker compose down -v
 
 ```text
 backend/
+├── prisma/              # Prisma schema and migrations
 ├── src/
 │   ├── routes/          # Express route definitions
 │   ├── controllers/     # Request handlers

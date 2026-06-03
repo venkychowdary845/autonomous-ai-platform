@@ -10,6 +10,7 @@ services:
     environment:
       PORT: 4000
       POSTGRES_URL: postgresql://postgres:postgres@postgres:5432/autonomous_ai_platform
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/autonomous_ai_platform
       REDIS_URL: redis://redis:6379
     ports:
       - "4000:4000"
