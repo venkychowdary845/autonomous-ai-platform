@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "noEmit": true
+  },
+  "include": [
+    "src",
+    "forge.config.ts",
+    "forge.env.d.ts",
+    "vite.*.config.ts"
+  ]
+}
